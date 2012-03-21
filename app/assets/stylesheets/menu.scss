@@ -1,0 +1,12 @@
+#menu {
+  ul {
+    list-style-type: none;
+    display: block;
+    ul {
+      display: none;
+    }
+    li.selected > ul {
+      display: block;
+    }
+  }
+}
